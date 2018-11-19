@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1800px;
+    background-color: black;
+}
+.menu {
+   height: 50px;
+   background-color: goldenrod;
+   text-align: center;
+   position: fixed;
+   width: 100%;
+   opacity: 0.7;
+   z-index: 3;
+}
+.big-box{
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 300px;
+    top: 800px;
+    z-index: -1;
+}
+.small-box{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 400px;
+    top: 400px;
+    padding-top: 50px;
+    padding-left: 20px;
+    
+}
+p {
+    color: white;
+}
+a {
+    display: block;
+    margin-left: 100px;
+    margin-top: 50px;    
+}
